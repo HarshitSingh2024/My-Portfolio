@@ -1,0 +1,251 @@
+@media screen and (max-width: 768px) {
+
+    /*----- Heading section -----*/
+    .heading {
+        font-size: 8vw;
+    }
+
+    .heading h2 {
+        width: 50vw;
+    }
+
+    /*----- Heading Close -----*/
+
+    #main {
+        height: 95vh;
+    }
+
+    /* nav bar */
+    .navright {
+        display: none;
+        position: fixed;
+        top: 10vh;
+        left: -20vw;
+        background-color: rgba(0, 0, 0, 0.651);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 85vh;
+        text-align: center;
+        box-shadow: 0px 8px 16px black;
+        z-index: 99999;
+    }
+
+    .navright.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navright a {
+        padding: 10px 0;
+        font-size: 10vw;
+    }
+
+    .burger {
+        color: #6ABFA5;
+        display: flex;
+        /* Show burger menu icon */
+    }
+
+    .content {
+        padding-top: 60px;
+        /* Adjust content padding when nav is active */
+    }
+
+    /* hero section */
+
+    .heroright {
+        display: none;
+    }
+
+    .heroleft {
+        width: 100%;
+    }
+
+    .heroleft h1 {
+        line-height: 7vh;
+        font-size: 15vw;
+        padding-top: 20px;
+    }
+
+    .heroleft h1:nth-child(2) {
+        line-height: 5vh;
+        font-size: 10vw;
+    }
+
+    .heroleft h1 span {
+        line-height: 7vh;
+        font-size: 20vw;
+    }
+
+    .heroleft h2 {
+        margin-top: 5vh;
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .heroleft button a {
+        font-size: 8vw;
+        padding: 5vw 8vw;
+    }
+
+    #main .social {
+        display: none;
+    }
+
+    #about {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    #about .txt p {
+        line-height: 3vh;
+        font-size: 5vw;
+        transform: rotate(0);
+    }
+
+    #about .txt p span {
+        font-size: 5.5vw;
+    }
+
+    #about .dots {
+        top: 65%;
+        left: 63%;
+    }
+
+    #about .txt .dots h1 {
+        letter-spacing: 10px;
+        line-height: 50px;
+        font-size: 5vh;
+    }
+
+    #services {
+        margin-left: 2%;
+    }
+
+    .service-bottom {
+        width: 115%;
+        display: flexbox;
+    }
+
+    .service-item {
+        width: 30%;
+        margin: 2px;
+        height: 20vh;
+    }
+
+    .service-item h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 4vw;
+    }
+
+    #services .dots {
+        left: 50vw;
+        top: 48vh;
+    }
+
+    #services .dots h1 {
+        letter-spacing: 10px;
+        line-height: 50px;
+        font-size: 5vh;
+    }
+
+    #portfolio {
+        z-index: -1;
+    }
+
+    #portfolio .heading h2 {
+        width: 60vw;
+    }
+
+    .portfolio-ctn:nth-child(1) {
+        margin-top: 2vh;
+    }
+
+    .portfolio-ctn {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #experience {
+        padding: 0 0 15% 10%;
+    }
+
+    #experience .heading h2 {
+        width: 75vw;
+    }
+
+    #experience .experiencecontainer {
+        padding: 0;
+    }
+
+    #experience .experiencecontainer h2 {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    #experience .experiencecontainer p {
+        font-size: 3vw;
+    }
+
+    #experience .dots {
+        top: 500%;
+        left: 0;
+    }
+
+    #experience .dots2 {
+        top: 540%;
+        left: 53vw;
+    }
+
+    #experience .dots2 h1,
+    #experience .dots h1 {
+        letter-spacing: 10px;
+        line-height: 50px;
+        font-size: 5vh;
+    }
+
+    #contact {
+        height: 35vh;
+    }
+
+    #contact h2 {
+        left: 45px;
+        width: 80vw;
+    }
+
+    #contact .container {
+        top: 22px;
+        width: 100%;
+        margin: 0;
+        border: 0;
+        flex-direction: column;
+    }
+
+    #contact .container .ctn {
+        width: 80%;
+    }
+
+    #contact .container .ctn i {
+        font-size: 5vw;
+    }
+
+    #contact .container .ctn p {
+        font-size: 5vw;
+    }
+
+    #contact .social-bottom {
+        left: 100px;
+        top: 95%;
+        font-size: 5vw;
+    }
+
+    .msg {
+        padding: 15vh 0 2vh 0;
+    }
+}
